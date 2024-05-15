@@ -3,3 +3,6 @@ baseurl: /open
 
 collections:
   portfolio:
+
+
+permalink: postes/:postes
