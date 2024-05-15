@@ -1,4 +1,18 @@
-name: Quentin Tison
-baseurl: /open
+
 collections:
 portfolio:
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "open"
+  -
+    scope:
+      path: "about"
+      type: "pages" # previously `page` in Jekyll 2.2.
+    values:
+      layout: "about" # overrides previous default layout
+      author: "Quentin Tison "
