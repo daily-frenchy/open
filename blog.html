@@ -12,7 +12,7 @@ title: Blog
 							<a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%d %B %Y" }}
 						</li>
 					{% endfor %}
-					<li><a href="{{ post.baseurl | prepend: url }}">Regarde moi  cela !</a></li>
+					<li><a href="{{ post.baseurl.url | prepend: url }}">Regarde moi  cela !</a></li>
 					<li><a href="./open/_posts/2016/06/01/my/first/post.md">test un autre </a></li>
 				</ul>
 			</div>
