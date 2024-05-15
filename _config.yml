@@ -1,9 +1,8 @@
 name: Quentin Tison
 
-
 collections:
   portfolio:
 
 
 permalink: postes/:postes
-site.name : /open
+
