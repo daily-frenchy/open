@@ -10,8 +10,7 @@ title: Blog
 					
 					{% for post in site.posts %}
 						<li>
-							<a href="{{ post.url | absolute_url }}"> 1er post </a> - {{ post.date | date: "%d %B %Y" }} 
-
+							<a href="{{ post.url | absolute_url }}"> {{ post.title }} </a> - {{ post.date | date: "%d %B %Y" }} 
 						</li>
 					{% endfor %}
 				</ul>
