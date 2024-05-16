@@ -12,13 +12,15 @@ title: Blog
 						<li>
 							<a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%d %B %Y" }}
 						</li>
+
+						<li>
+							<a href="{{ "/2016/06/01/my-first-post.html" | absolute_url }}"> 1er post </a> - {{ post.date | date: "%d %B %Y" }} 
+						</li>
+
+                                        	<li>
+							<a href="{{ "/2024/05/15/article-1.html" | absolute_url }}"> 2eme post </a> - {{ post.date | date: "%d %B %Y" }}
+						</li>
 					{% endfor %}
-
-					<li><a href="{{ "/2016/06/01/my-first-post.html" | absolute_url }}"> 1er post </a> - {{ post.date | date: "%d %B %Y" }} </li>
-
-                                        <li><a href="{{ "/2024/05/15/article-1.html" | absolute_url }}"> 2eme post </a> - {{ post.date | date: "%d %B %Y" }} </li>
-
-
 				</ul>
 			</div>
 		</div>
