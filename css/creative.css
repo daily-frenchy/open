@@ -509,9 +509,8 @@ img::-moz-selection {
 
 /* debut about  */
 .about {
-    position: relative;
+    position: absolute;
     width: 100%;
-    height: 500px;
     min-height: auto;
     text-align: center;
     opacity: 0.6;
