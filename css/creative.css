@@ -197,7 +197,7 @@ header {
     min-height: auto;
     text-align: center;
     /*     couleur du texte du header */
-    color: rgb(184, 134, 11);
+/*     color: rgb(184, 134, 11); */
     opacity: 0.6;
     background-image: url(/open/img/header.jpg);
     background-position: center;
