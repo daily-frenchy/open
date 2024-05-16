@@ -12,13 +12,13 @@ title: Blog
 							<a href="{{ baseurl }}">{{ post.title }}</a> - {{ post.date | date: "%d %B %Y" }}
 						</li>
 					{% endfor %}
-					<li><a href="{{ site.baseurl }}{{ post.url }}">Regarde moi  cela !</a></li>
 
-					<li><a href="./2016/06/01/my-first-post.html">fonctionne 1er article, mais chiant... </a></li>
 
-                                        <li><a href="./2024/05/15/article1.html">2eme page</a></li>
+					<li><a href="{{ "/2016/06/01/my-first-post.html" | absolute_url }}">1er article... </a></li>
 
-                                        <li><a href="{{ post.url }}">post url</a></li>
+                                        <li><a href="{{ "/2024/05/15/article1.html" | absolute_url }}">2eme page ... </a></li>
+
+
 				</ul>
 			</div>
 		</div>
