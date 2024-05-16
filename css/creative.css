@@ -206,12 +206,12 @@ header .header-content .header-content-inner hr {
     margin: 30px auto;
 }
 
-/* couleur du texte du header  */
+/* creer un filtre au header (ajoute de la couleur a l'image */
 header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
-    color: rgba(255,255,255);
+    color: rgba(255,255,255, 0.7);
 }
 
 @media(min-width:768px) {
