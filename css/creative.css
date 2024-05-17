@@ -122,6 +122,7 @@ aside {
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
     color: #6495ed;
+/* changement couleur texte menu deroulant */
 }
 
 .navbar-default .nav > li.active>a,
@@ -140,6 +141,7 @@ aside {
 @media(min-width:768px) {
     .navbar-default {
         border-color: green;
+        background-color: yellow;
     }
 
     .navbar-default .navbar-header .navbar-brand {
