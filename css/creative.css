@@ -524,8 +524,8 @@ img::-moz-selection {
 
 /* ----------------------------------------------------------------------------- debut about ---------------------------------------------------------------------------------- */
 
-.section.about {
-    padding: 0px 0 !important;
+section.about {
+    padding: 0px 0!important;
 }
 
 .about {
@@ -571,6 +571,9 @@ img::-moz-selection {
 
 
 @media(min-width:768px) {
+    section.about{
+        padding: 0px 0!important;
+    }
     .about {
         min-height: 100%;
     }
