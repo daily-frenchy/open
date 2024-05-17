@@ -576,6 +576,7 @@ section.about {
     }
     .about {
         min-height: 100%;
+        margin : 0 ;
     }
 
     .about .about-content {
@@ -583,6 +584,7 @@ section.about {
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
+        padding: 0px 0!important;
 
     }
 
