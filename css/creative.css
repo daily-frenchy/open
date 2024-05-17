@@ -139,7 +139,7 @@ aside {
     }
 
     .navbar-default .navbar-header .navbar-brand {
-        color: rgba(255,255,255,.7);
+        color: rgba(140,150,157,.7);
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
@@ -509,7 +509,6 @@ img::-moz-selection {
 
 .about {
     position: relative;
-    width: 100%;
     min-height: auto;
     text-align: center;
     background-image: url(/open/img/about.jpg);
