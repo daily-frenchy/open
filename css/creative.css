@@ -572,9 +572,7 @@ section.about {
 
 @media(min-width:768px) {
     .about {
-        position: absolute;
-        min-height: auto;
-        background-image: url(/open/img/about.jpg);
+        min-height: 100%;
     }
 
     .about .about-content {
