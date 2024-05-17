@@ -91,6 +91,7 @@ aside {
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
+    background-color: rgba(140,150,157,.7);
 }
 
 
@@ -139,7 +140,8 @@ aside {
     }
 
     .navbar-default .navbar-header .navbar-brand {
-        color: rgba(140,150,157,.7);
+        color: rgba(150,150,150,.7);
+        background-color: rgba(140,150,157,.7);
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
