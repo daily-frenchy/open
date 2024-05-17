@@ -142,36 +142,36 @@ aside {
     .navbar-default {
         border-color: green;
         background-color: #5b686d;
-    /*   couleur barre totale , en haut de page */
+    /*   couleur barre totale , en haut de page ( version pc ) */
     }
 
     .navbar-default .navbar-header .navbar-brand {
         background-color: #5b686d;
-    /*         background bloc maison  */
+    /*         background bloc maison  ( version pc ) */
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
         color: #666666;
-    /*         ecriture bloc "maison " en hover */
+    /*         ecriture bloc "maison " en hover  ( version pc )*/
     }
 
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
         color: black;
-    /*          */
+    /*    ecriture texte menu ( version pc )      */
     }
 
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
         color: #6495ed;
-/*        couleur texte " maison " quand on passe la souris dessus  */
+/*        couleur texte " maison " quand on passe la souris dessus  ( version pc ) */
     }
 
     .navbar-default.affix {
         border-color: rgba(34,34,34,.05);
-        background-color: red;
-/*          */
+        background-color: #605a6c;
+/*    quand on bouge l'ecran, la navbar change de couleur ( version pc )      */
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
