@@ -511,7 +511,7 @@ img::-moz-selection {
 .about {
     position: absolute;
     width: 100%;
-    min-height: auto;
+    height: 1500px;
     text-align: center;
     opacity: 0.6;
     background-image: url(/open/img/about.jpg);
