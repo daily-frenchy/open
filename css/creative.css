@@ -539,7 +539,7 @@ img::-moz-selection {
 }
 
 .about .about-content {
-    position: relative;
+    position: absolute;
     width: 100%;
     text-align: center;
 }
