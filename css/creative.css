@@ -530,64 +530,16 @@ img::-moz-selection {
     min-height: 100%;
     text-align: center;
     background-image: url(/open/img/about.jpg);
-    background-position: center;
 
     color : red;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-.about .about-content {
-    position: absolute;
-    width: 100%;
-    text-align: center;
-}
-
-.about .about-content .about-content-inner h1 {
-    margin-top: 0;
-    margin-bottom: 0;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 50px;
-}
-
-.about .about-content .about-content-inner hr {
-    margin: 30px auto;
-}
-
-/* creer un filtre au header (ajoute de la couleur a l'image */
-.about .about-content .about-content-inner p {
-
-    font-size: 16px;
-    font-weight: 300;
-/*     color: #373737; */
-}
-
-
-
 @media(min-width:768px) {
     .about {
         min-height: 100%;
         margin : 0px ;
-    }
-
-    .about .about-content {
-        position: relative;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-    }
-
-    .about .about-content .about-content-inner {
-        margin-right: 0;
-        margin-left: 0;
-    }
-
-    .about .about-content .about-content-inner p {
-        margin-right: 0;
-        margin-left: 0;
-        max-width: 80%;
-        font-size: 18px;
     }
 }
 /* ------------------------------------------------------------------------- FIN ABOUT ----------------------------------------------------------------------------------------  */
