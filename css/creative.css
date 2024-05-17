@@ -526,6 +526,7 @@ img::-moz-selection {
 
 .about {
     color : red;
+    text-align: center;
     position: relative;
     width: 100%;
     min-height: auto;
