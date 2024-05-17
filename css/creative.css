@@ -518,6 +518,7 @@ img::-moz-selection {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    color : red;
 }
 
 .about .about-content {
