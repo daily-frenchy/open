@@ -567,7 +567,6 @@ img::-moz-selection {
 
 
 @media(min-width:768px) {
-
     .about {
         min-height: 100%;
         margin : 0px ;
@@ -578,18 +577,14 @@ img::-moz-selection {
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
-        padding: 0px 0!important;
-
     }
 
     .about .about-content .about-content-inner {
         margin-right: 0;
         margin-left: 0;
-            padding: 0px 0!important;
     }
 
     .about .about-content .about-content-inner p {
-        padding: 0px 0!important;
         margin-right: 0;
         margin-left: 0;
         max-width: 80%;
