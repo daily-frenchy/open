@@ -92,6 +92,7 @@ aside {
     -moz-transition: all .35s;
     transition: all .35s;
     background-color: rgba(140,150,157);
+/*     joue sur le bloc maison */
 }
 
 
@@ -104,7 +105,7 @@ aside {
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #eb3812;
+    color: red;
 }
 
 
