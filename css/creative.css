@@ -525,7 +525,7 @@ img::-moz-selection {
 
 .about {
     position: relative;
-    min-height: auto;
+
     text-align: center;
     background-image: url(/open/img/about.jpg);
     background-position: center;
