@@ -509,7 +509,7 @@ img::-moz-selection {
 
 /* ----------------------------------------------------------------------------- debut about ---------------------------------------------------------------------------------- */
 
-.about {
+about {
     position: relative;
     width: 100%;
     min-height: auto;
@@ -522,14 +522,14 @@ img::-moz-selection {
     -o-background-size: cover;
 }
 
-.about .about-content {
+about .about-content {
     position: relative;
     width: 100%;
     padding: 100px 15px;
     text-align: center;
 }
 
-.about .about-content .about-content-inner h1 {
+about .about-content .about-content-inner h1 {
     margin-top: 0;
     margin-bottom: 0;
     text-transform: uppercase;
@@ -537,12 +537,12 @@ img::-moz-selection {
     font-size: 50px;
 }
 
-.about .about-content .about-content-inner hr {
+about .about-content .about-content-inner hr {
     margin: 30px auto;
 }
 
 /* creer un filtre au header (ajoute de la couleur a l'image */
-.about .about-content .about-content-inner p {
+about .about-content .about-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
@@ -552,11 +552,11 @@ img::-moz-selection {
 
 
 @media(min-width:768px) {
-    .about {
+    about {
         min-height: 100%;
     }
 
-    .about .about-content {
+    about .about-content {
         position: absolute;
         top: 50%;
         padding: 0 50px;
@@ -565,13 +565,13 @@ img::-moz-selection {
         transform: translateY(-50%);
     }
 
-    .about .about-content .about-content-inner {
+    about .about-content .about-content-inner {
         margin-right: auto;
         margin-left: auto;
         max-width: 1000px;
     }
 
-    .about .about-content .about-content-inner p {
+    about .about-content .about-content-inner p {
         margin-right: auto;
         margin-left: auto;
         max-width: 80%;
