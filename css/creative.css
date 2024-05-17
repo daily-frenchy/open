@@ -531,11 +531,10 @@ img::-moz-selection {
     text-align: center;
     background-image: url(/open/img/about.jpg);
     background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+
     color : red;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .about .about-content {
