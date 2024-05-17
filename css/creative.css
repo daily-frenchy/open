@@ -177,7 +177,7 @@ aside {
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
         color: #f05f40;
-/*          */
+/*        couleur navbar quand elle bouge (version pc)  */
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
