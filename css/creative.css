@@ -582,13 +582,12 @@ img::-moz-selection {
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
-            padding: 100px 15px;
+
     }
 
     .about .about-content .about-content-inner {
-        margin-right: auto;
-        margin-left: auto;
-/*         max-width: 1000px; */
+        margin-right: 0;
+        margin-left: 0;
     }
 
     .about .about-content .about-content-inner p {
