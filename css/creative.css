@@ -543,7 +543,6 @@ section.about {
 .about .about-content {
     position: relative;
     width: 100%;
-    padding: 100px 15px;
     text-align: center;
 }
 
@@ -578,8 +577,6 @@ section.about {
 
     .about .about-content {
         position: absolute;
-        top: 50%;
-        padding: 0 50px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
