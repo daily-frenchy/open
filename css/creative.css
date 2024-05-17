@@ -525,7 +525,7 @@ img::-moz-selection {
 
 @media(min-width:768px) {
     .about {
-       height : 1500px;
+       height : 100%;
     }
     
 }
