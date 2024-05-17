@@ -525,14 +525,13 @@ img::-moz-selection {
 /* ----------------------------------------------------------------------------- debut about ---------------------------------------------------------------------------------- */
 
 .about {
+    color : red;
     position: absolute;
     width: 100%;
     min-height: 100%;
     text-align: center;
     background-image: url(/open/img/about.jpg);
-    color : red;
-    background-size: contain;
-    background-repeat: no-repeat;
+
 }
 
 @media(min-width:768px) {
