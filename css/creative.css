@@ -141,7 +141,7 @@ aside {
 
 @media(min-width:768px) {
     .navbar-default {
-        border-color: green;
+        border-color: #84A5B7;
         background-color: #5b686d;
         width: 100%;
     /*   couleur barre totale , en haut de page ( version pc ) */
@@ -154,7 +154,7 @@ aside {
 
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
-        color: red;
+        color: #839CA3;
     /*  ecriture bloc "maison " en hover  ( version pc )*/
     }
 
@@ -184,7 +184,7 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #b9ceac;
+        color: #839CA3;
 /*         couleur ecriture "maison" quan don passe la souris dessus  */
     }
 
