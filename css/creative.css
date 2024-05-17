@@ -176,13 +176,14 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
-        color: yellow;
-/*        couleur navbar quand elle bouge (version pc)  */
+        color: white;
+/*        couleur texte menu,  navbar quand on passe la souris dessus(version pc)  */
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #eb3812;
+        color: yellow;
+/*         couleur  */
     }
 
     .navbar-default.affix .nav > li>a,
