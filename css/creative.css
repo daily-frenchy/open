@@ -571,6 +571,7 @@ img::-moz-selection {
         padding: 0px 0!important;
     }
     .about {
+        min-height: 80%;
         margin : 0px ;
     }
 
