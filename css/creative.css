@@ -70,9 +70,9 @@ p {
 }
 
 
-/* section {
+section {
     padding: 100px 0;
-} */
+}
 
 
 aside {
@@ -93,6 +93,7 @@ aside {
     transition: all .35s;
     background-color: #5b686d;
     /*joue sur le bloc " maison " (header en haut a gauche) sur la version mobile */
+    
 }
 
 
@@ -142,6 +143,7 @@ aside {
     .navbar-default {
         border-color: green;
         background-color: #45494e;
+            width: 100%;
     /*   couleur barre totale , en haut de page ( version pc ) */
     }
 
