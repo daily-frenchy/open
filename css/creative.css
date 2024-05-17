@@ -533,7 +533,7 @@ img::-moz-selection {
     background-image: url(/open/img/about.jpg);
     
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
