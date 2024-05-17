@@ -143,7 +143,6 @@ aside {
     .navbar-default {
         border-color: #84A5B7;
         background-color: #5b686d;
-        width: 100%;
     /*   couleur barre totale , en haut de page ( version pc ) */
     }
 
@@ -575,6 +574,7 @@ img::-moz-selection {
 @media(min-width:768px) {
     .about {
         min-height: 100%;
+        background-image: url(/open/img/about.jpg);
     }
 
     .about .about-content {
