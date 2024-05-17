@@ -88,6 +88,7 @@ aside {
 .navbar-default {
     border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    background-image:url(/open/img/about.jpg);
     background-color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
