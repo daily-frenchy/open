@@ -546,7 +546,6 @@ img::-moz-selection {
     position: relative;
     width: 100%;
     text-align: center;
-    padding: 100px 15px;
 }
 
 .about .about-content .about-content-inner h1 {
@@ -563,7 +562,7 @@ img::-moz-selection {
 
 /* creer un filtre au header (ajoute de la couleur a l'image */
 .about .about-content .about-content-inner p {
-    margin-bottom: 50px;
+
     font-size: 16px;
     font-weight: 300;
 /*     color: #373737; */
@@ -574,7 +573,6 @@ img::-moz-selection {
 @media(min-width:768px) {
     .about {
         min-height: 100%;
-        background-image: url(/open/img/about.jpg);
     }
 
     .about .about-content {
@@ -591,8 +589,8 @@ img::-moz-selection {
     }
 
     .about .about-content .about-content-inner p {
-        margin-right: auto;
-        margin-left: auto;
+        margin-right: 0;
+        margin-left: 0;
         max-width: 80%;
         font-size: 18px;
     }
