@@ -146,7 +146,7 @@ aside {
 
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
-        color: #fff;
+        color: red;
     }
 
     .navbar-default .nav > li>a,
