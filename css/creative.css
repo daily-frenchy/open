@@ -91,7 +91,7 @@ aside {
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
-    background-color: rgba(140,150,157,.7);
+    background-color: rgba(140,150,157);
 }
 
 
