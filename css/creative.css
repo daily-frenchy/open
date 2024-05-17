@@ -571,12 +571,11 @@ img::-moz-selection {
         padding: 0px 0!important;
     }
     .about {
-        
-        margin : 0 ;
+        margin : 0px ;
     }
 
     .about .about-content {
-        position: absolute;
+        position: relative;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
