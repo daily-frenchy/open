@@ -526,15 +526,15 @@ img::-moz-selection {
 
 .about {
     color : red;
-
     position: relative;
     width: 100%;
     min-height: auto;
     background-image: url(/open/img/about.jpg);
+    
     background-position: center;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: cover;
     -o-background-size: cover;
 }
 
