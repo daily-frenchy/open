@@ -524,7 +524,7 @@ img::-moz-selection {
 /* ----------------------------------------------------------------------------- debut about ---------------------------------------------------------------------------------- */
 
 .about {
-    position: relative;
+    position: absolute;
     min-height: auto;
     text-align: center;
     background-image: url(/open/img/about.jpg);
