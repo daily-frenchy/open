@@ -92,7 +92,7 @@ aside {
     -moz-transition: all .35s;
     transition: all .35s;
     background-color: rgba(140,150,157);
-/*     joue sur le bloc maison */
+        /*joue sur le bloc " maison " (header en haut a gauche) */
 }
 
 
@@ -106,7 +106,7 @@ aside {
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
     color: red;
-/*     couleur quand on met la souris sur le texte */
+/*   couleur quand on met la souris sur le texte */
 } 
 
 
@@ -116,6 +116,7 @@ aside {
     font-size: 13px;
     font-weight: 700;
     color: blue;
+/*     ecriture texte menu deroulant ( version mobile)  */
 }
 
 .navbar-default .nav > li>a:hover,
@@ -138,7 +139,7 @@ aside {
 
 @media(min-width:768px) {
     .navbar-default {
-        border-color: rgba(255,255,255,.3);
+        border-color: green;
     }
 
     .navbar-default .navbar-header .navbar-brand {
