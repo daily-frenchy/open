@@ -568,7 +568,9 @@ img::-moz-selection {
 
 @media(min-width:768px) {
     .about {
-        min-height 100%;
+        position: relative;
+        width: 100%;
+        min-height: auto;
         background-image: url(/open/img/about.jpg);
     }
 
