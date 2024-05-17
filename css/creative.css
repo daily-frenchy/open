@@ -206,10 +206,10 @@ aside {
 
 /*  ------------------------------------------------------------- DEBUT HEADER  ---------------------------------------------------------------------------------------  */
 header {
+    text-align: center;
     position: relative;
     width: 100%;
     min-height: auto;
-    text-align: center;
     background-image: url(/open/img/header.jpg);
     background-position: center;
     -webkit-background-size: cover;
@@ -526,12 +526,16 @@ img::-moz-selection {
 
 .about {
     color : red;
-    position: absolute;
-    width: 100%;
-    min-height: 100%;
-    text-align: center;
-    background-image: url(/open/img/about.jpg);
 
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    background-image: url(/open/img/about.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 @media(min-width:768px) {
