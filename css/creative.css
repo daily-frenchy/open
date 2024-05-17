@@ -509,7 +509,7 @@ img::-moz-selection {
 
 /* ----------------------------------------------------------------------------- debut about ---------------------------------------------------------------------------------- */
 
-about {
+.about {
     position: relative;
     width: 100%;
     min-height: auto;
@@ -552,7 +552,7 @@ about .about-content .about-content-inner p {
 
 
 @media(min-width:768px) {
-    about {
+    .about {
         min-height: 100%;
         background-image: url(/open/img/about.jpg);
     }
