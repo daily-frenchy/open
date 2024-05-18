@@ -253,6 +253,16 @@ img::-moz-selection {
 /* ---------------------------------------------------------------------------section entete -----------------------------------------------------------------------------------------  */
 
 section.entete {
-display : block;
-background-color : blue;
+    display : block;
+    background-color : blue;
+    width: 100%;
+    height: 800px;
+}
+
+section.contenu-principal {
+    display : block;
+    background-color : yellow;
+    width: 100%;
+    height: 800px;
+    
 }
