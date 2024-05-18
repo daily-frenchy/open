@@ -256,7 +256,7 @@ section.entete {
     display : block;
     background-color : blue;
     width: 100%;
-    height: 800px;
+    height: 200px;
 }
 
 section.contenu-principal {
