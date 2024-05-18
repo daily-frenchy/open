@@ -32,15 +32,11 @@
 			<!-- DEBUT DU BODY -->
 			<body>
 				
-<!-- 			<!-- contenu de l'en tete (inclus la navbar) -->
+			<!-- contenu de l'en tete (inclus la navbar) -->
 			{% include entete.html %}
 					
 			<!-- contenu du bloc principal -->
 			{% include contenu-prinicpal.html %}	
- -->
-				
-			<!-- le background est inclus dans la div container -->
-<!-- 			<div class="container"></div> -->
 				
 			<!-- CONTACT  equivalent au footer-->
 			{% include contact.html %}
@@ -51,7 +47,7 @@
 		<script src="./js/jquery.js"></script>
 		
 		<!-- Bootstrap Core JavaScript -->
-		<script src="./js/bootstrap.min.js"></script>
+		<script src="{{ "/js/bootstrap.min.js" | absolute_url }}"></script>
 		
 		<!-- Plugin JavaScript -->
 		<script src="./js/jquery.easing.min.js"></script>
