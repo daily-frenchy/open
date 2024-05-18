@@ -29,16 +29,19 @@
 			<!-- DEBUT DU BODY -->
 			<body id="page-top">
 				
-			<!-- 	NAVBAR	 -->
+			<!-- 	NAVBAR	equivalent header -->
 			{% include nav.html %}
 				
 			<!-- Contenu de la page index -->
-			{{ content }}
+<!-- 			{{ content }} -->
+
+			<!-- contenu du bloc 1 -->
+			{{% include bloc1.html %}}
 				
 			<!-- le background est inclus dans la div container -->
 <!-- 			<div class="container"></div> -->
 				
-			<!-- CONTACT -->
+			<!-- CONTACT  equivalent au footer-->
 			{% include contact.html %}
 
 <!-- ----------------------------------------------------------------------- SCRIPTS JS ----------------------------------------------------------------------------------------- -->
