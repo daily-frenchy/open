@@ -19,9 +19,11 @@
 		
 			<!-- Custom CSS -->
 			<link rel="stylesheet" href="{{ "/css/creative.css" | absolute_url }}" type="text/css">
+			
 			<link rel="stylesheet" href="{{ "/css/nav.css" | absolute_url }}" type="text/css">
 			<link rel="stylesheet" href="{{ "/css/about.css" | absolute_url }}" type="text/css">
 			<link rel="stylesheet" href="{{ "/css/portfolio.css" | absolute_url }}" type="text/css">
+			
 			<link rel="stylesheet" href="{{ "/font-awesome/css/font-awesome.min.css" | absolute_url }}" type="text/css">
 			
 		</head>
@@ -33,9 +35,8 @@
 			<!-- contenu de l'en tete (inclus la navbar) -->
 			{% include entete.html %}
 					
-			<!-- Contenu de la page index -->
-<!-- 			{{ content }} -->
-
+			<!-- contenu du bloc principal -->
+			{% include contenu.html %}	
 
 				
 			<!-- le background est inclus dans la div container -->
