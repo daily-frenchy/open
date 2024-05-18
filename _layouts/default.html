@@ -38,7 +38,8 @@
 		<!-- NAVBAR -->
 	  			<div class="text-center" style="background-color: red">
 						{% include nav.html %}
-		  			<h1> la partie " entete " </h1>
+		  			<h1> la partie " entete " contenu debut test : </h1>
+					{{ content.debut }}
 	  			</div>
 			</section>
 
@@ -46,8 +47,8 @@
 				<section class="contenu-prinicpal" style="background-color: green">
 	  				<div class="text-center">
 		  				<h1> la partie " contenu " </h1>
-		  				<p> blablabla</p>
-      						{{ content }}
+		  				<p> test content fin :</p>
+      						{{ content.fin }}
 	  				</div>
 				</section>
 
