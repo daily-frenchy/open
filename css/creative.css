@@ -406,26 +406,4 @@ img::-moz-selection {
     background: 0 0;
 }
 
-/* ----------------------------------------------------------------------------- debut about ---------------------------------------------------------------------------------- */
 
-.about {
-    color : red;
-    text-align: center;
-    position: relative;
-    width: 100%;
-    min-height: auto;
-    background-image: url(/open/img/about.jpg);
-    
-    background-position: center;
-    background-size: contain;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-}
-
-@media(min-width:768px) {
-    .about {
-        min-height: 100%;
-    }
-}
-/* ------------------------------------------------------------------------- FIN ABOUT ----------------------------------------------------------------------------------------  */
